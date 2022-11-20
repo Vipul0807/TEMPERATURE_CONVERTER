@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEMPERATURE CONVERTER</title>
+    <link href="tempconverter.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+    <table class="table">
+      <tr>
+        <td class="left">Temperature</td>
+        <td class="right">Type</td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="number"
+            placeholder="Enter Value of Temperature"
+            name="inputTemperature"
+            id="inputTemperature"
+            class="inpitclass"
+          />
+          </td>
+          <td>
+          <select id="WHO" class="sel">
+            <option value="Celsius">Celsius</option>
+            <option value="Ferenheit">Ferenheit</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><button  onclick="calculateTemp()">Convert</button></td>
+      </tr>
+    </table>
+    <div>
+    <table class="table1">
+      <tr>
+        <td id="convertedTemp" colspan="2"></td>
+      </tr>
+    </div>
+    </table>
+  </div>
+    <script src="tempconverter.js"></script>
+  </body>
+</html>

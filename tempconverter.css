@@ -1,0 +1,110 @@
+h1 {
+  font-size: 2em;
+}
+
+.table {
+  background-color: rgb(165, 175, 195);
+  border: solid 1.5px;
+  padding: 2%;
+  margin: 130px 150px 0 470px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-size: 22px;
+  position: fixed;
+}
+
+.table1 {
+  background-color: rgb(165, 175, 195);
+  border: solid 1.5px;
+  position: fixed;
+  margin: 310px 80px 0 510px;
+  border-radius: 10px;
+  width: 480px;
+  height: 50px;
+  text-align: center;
+}
+
+body {
+  background-color: aqua;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#calculateTemp {
+  display: inline;
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+}
+
+#convertedTemp {
+  text-align: center;
+  font-size: 25px;
+}
+
+input {
+  background-color: rgb(165, 175, 195);
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+}
+
+/*
+input:focus {
+  border-color: green;
+}
+*/
+
+button {
+  border-radius: 7px;
+  background-color: cyan;
+  width: 200px;
+  align-self: center;
+  height: 35px;
+  margin: 20px 150px 0 150px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgb(165, 175, 195);
+  transition: 0.3s;
+}
+
+select {
+  background-color: cyan;
+  border-radius: 7px;
+  width: 130px;
+  height: 35px;
+  border: solid 2px;
+  font-size: 20px;
+}
+
+select:hover {
+  background-color: rgb(165, 175, 195);
+  transition: 0.3s;
+}
+
+td .sel {
+  border-radius: 7px;
+}
+
+input[type="number"] {
+  font-size: 20px;
+}
+
+td .left {
+  font-size: 25px;
+}
+
+.right {
+  font-size: 25px;
+}
